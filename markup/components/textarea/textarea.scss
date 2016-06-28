@@ -1,0 +1,5 @@
+.textarea {
+    @extend .input;
+    padding-top: 10px;
+    resize: none;
+}

@@ -1,0 +1,23 @@
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    border: none;
+
+    font-size: 16px;
+    line-height: (20/16);
+    color: #fff;
+    vertical-align: top;
+
+    background-color: #56b542;
+    border-radius: 5px;
+
+    transition: background-color .4s, opacity .4s;
+
+    &:not(&_disabled):hover {
+        background-color: lighten(#56b542, 10%);
+    }
+
+    &_disabled {
+        opacity: .5;
+    }
+}

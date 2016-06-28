@@ -1,0 +1,26 @@
+// Common styles of the project
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.page {
+    background: rgba(#afd3d7, 0.25);
+    font-family: Tahoma, sans-serif;
+}
+
+.page__wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+* html .page__wrapper {
+    height: 100%;
+}
+
+.page__buffer {
+    height: 50px;
+}

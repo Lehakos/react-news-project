@@ -1,0 +1,13 @@
+.news {
+
+    &__list {
+        margin-bottom: 20px;
+    }
+
+    &__item {
+
+        &:not(:last-child) {
+            margin-bottom: 10px;
+        }
+    }
+}

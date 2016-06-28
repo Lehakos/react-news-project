@@ -1,0 +1,30 @@
+.article {
+    padding: 15px;
+
+    background-color: #fff;
+
+    &__author {
+        font-size: 16px;
+    }
+
+    &__more {
+        text-decoration: none;
+        color: orchid;
+
+        transition: color .4s;
+
+        &:hover {
+            color: lighten(orchid, 10%);
+        }
+    }
+
+    &__text {
+        font-size: 14px;
+    }
+
+    &__big-text {
+        &_hidden {
+            display: none;
+        }
+    }
+}
